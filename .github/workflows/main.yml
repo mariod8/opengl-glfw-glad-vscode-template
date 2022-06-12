@@ -18,4 +18,3 @@ jobs:
         sudo apt-get install xorg-dev libglu1-mesa-dev
         sh configure.sh
         sh build.sh
-        sh run.sh
