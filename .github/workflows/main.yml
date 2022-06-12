@@ -13,7 +13,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
-    - name: Build
+    - name: Linux build
       run: |
         sudo apt-get install xorg-dev libglu1-mesa-dev
         sh configure.sh
